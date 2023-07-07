@@ -1,0 +1,70 @@
+.home{
+    padding: top 10px;;
+    text-align: center;
+    overflow-x:hidden;
+}
+.home h1{
+    font-size: 6.5vw;
+    text-transform: uppercase;
+    color:var(--black);
+}
+.home img{
+    width:100%;
+    margin:1rem 0;
+    padding-top: 10;
+}
+#btn{
+    color: rgb(10, 2, 8);
+    font-size: medium;
+    border-radius: 12px;
+    width: 150px;
+}
+#homecolor{
+    background-color: gold;
+}
+.iconcontainer{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    grid-template-columns: repeat(auto-fit,minmax(25rem,1fr));
+    display: grid;
+    gap: 1.5rem;
+    background: gold;
+}
+.iconcontainer .icons{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 2rem;
+    background:#fff;
+    border-radius: 1rem;
+}
+.iconcontainer .icons i{
+    height: 5rem;
+    width: 5rem;
+    line-height:5rem;
+    font-size: 2.5rem;
+    border-radius: 50%;
+    background-color: #eee;
+    color: var(--black);
+    text-align: center;
+}
+.iconcontainer .icons h3{
+    color: var(--yellow);
+    font-size: 1.5rem;
+}
+.iconcontainer .icons p{
+    color: var(--light-color);
+    font-size: 1.5rem;
+}
+.iconcontainer .icons:hover{
+    background: var(--black);
+}
+.iconcontainer .icons:hover i{
+    background: var(--yellow);
+}
+.iconcontainer .icons:hover .content h3{
+    color: #fff;
+}
+.iconcontainer .icons:hover .content p{
+    color: #eee;
+}
